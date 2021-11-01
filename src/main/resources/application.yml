@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/E:/java/db/va;SCHEMA=FULLSTACK
+    username: sa
+    password: 808080
+    driverClassName: org.h2.Driver
+    hikari:
+      autoCommit: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop

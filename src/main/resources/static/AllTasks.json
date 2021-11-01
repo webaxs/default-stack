@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1adecb44-54e2-4abb-a4cb-a250a322cc55",
+    "createdAt": "2021-11-01T20:49:45.704794",
+    "updatedAt": "2021-11-01T20:49:45.705503",
+    "title": "Test fire task 1",
+    "description": "Dummy task created from code",
+    "overallProgress": [],
+    "status": "NOT_TOUCHED"
+  },
+  {
+    "id": "17560900-69e4-4456-8aef-1563daec333d",
+    "createdAt": "2021-11-01T20:49:45.719459",
+    "updatedAt": "2021-11-01T20:49:45.719459",
+    "title": "Test fire task 2",
+    "description": "Dummy task created from code 2",
+    "overallProgress": [
+      {
+        "id": "c3147ea6-b967-47a4-bb2e-8b517b93a5a1",
+        "taskId": "17560900-69e4-4456-8aef-1563daec333d",
+        "reportTitle": "Yes again!",
+        "reportText": "First report assigned to 322cc55",
+        "done": false,
+        "createdAt": "2021-11-01T20:57:06.372649",
+        "updatedAt": "2021-11-01T20:57:06.372649"
+      },
+      {
+        "id": "c7bf3a6f-367e-403a-b1bf-dc1d022b10de",
+        "taskId": "17560900-69e4-4456-8aef-1563daec333d",
+        "reportTitle": "No, we've got troubles!",
+        "reportText": "Second report assigned to 322cc55",
+        "done": false,
+        "createdAt": "2021-11-01T20:57:32.716761",
+        "updatedAt": "2021-11-01T20:57:32.716761"
+      },
+      {
+        "id": "a3780a4d-c489-4690-bebd-c63437a452b8",
+        "taskId": "17560900-69e4-4456-8aef-1563daec333d",
+        "reportTitle": "Troubles have been resolved, proceeding to next step",
+        "reportText": "Second report assigned to 322cc55",
+        "done": false,
+        "createdAt": "2021-11-01T20:57:45.530842",
+        "updatedAt": "2021-11-01T20:57:45.530842"
+      }
+    ],
+    "status": "NOT_TOUCHED"
+  },
+  {
+    "id": "19849d7f-cb81-4088-9ad5-4b53b8e66e72",
+    "createdAt": "2021-11-01T20:49:45.720445",
+    "updatedAt": "2021-11-01T20:49:45.720445",
+    "title": "Test fire task 3",
+    "description": "Dummy task created from code 3",
+    "overallProgress": [],
+    "status": "NOT_TOUCHED"
+  }
+]
